@@ -1,0 +1,69 @@
+
+.about-container {
+  .about__hr {
+    width: 1110px;
+    margin-bottom: 7.2rem;
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  body{
+    display: none;
+  }
+}
+.hero__img{
+  width: 2000px;
+  height: 2000px;
+}
+.about__top__list {
+  display: flex;
+  justify-content: space-between;
+}
+.about__top__item {
+  h3 {
+    width: 280px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: -1.5px;
+    color: $White-color;
+  }
+  p {
+    color: $White-color;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.55; /* 155.556% */
+    margin-bottom: 58px;
+
+  }
+}
+.about__bottom__list {
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+
+}
+.about__bottom__item {
+  h3 {
+    width: 280px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: -1.5px;
+    color: $White-color;
+  }
+  p {
+    color: $White-color;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.55; /* 155.556% */
+    margin-bottom: 140px;
+  }
+}

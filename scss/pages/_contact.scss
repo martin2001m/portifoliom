@@ -1,0 +1,67 @@
+.message {
+  background-color: $Raisin-black;
+}
+.contact__container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact {
+  width: 100%;
+  max-width: 445px;
+  margin-top: 84px;
+}
+.contact__title {
+  font-size: 8.8rem;
+  font-weight: 700;
+  line-height: 1; /* 100% */
+  letter-spacing: -2.5px;
+  color: $White-color;
+  margin-top: -150px;
+}
+.contact__text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.55; /* 155.556% */
+  color: $Light-silver;
+  margin-top: 36px;
+}
+.contact__mesage {
+  margin-top: 150px;
+  .contact__link {
+    padding-left: 303px;
+  }
+}
+.contact__mesage__item {
+  h4 {
+    color: $Light-silver;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62; /* 162.5% */
+    letter-spacing: -0.222px;
+    margin-bottom: 16px;
+  }
+}
+.contact__hr {
+  width: 445px;
+  margin-bottom: 50px;
+}
+.contact__link {
+  margin-bottom: 90px;
+  color: $White-color;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.62; /* 162.5% */
+  letter-spacing: 2.286px;
+  transition: 0.3s;
+
+  hr{
+    width: 144px;
+    height: 2px;
+  }
+}
+
+.hero__link:hover{
+    color: $Eucalyptus-color;
+}
